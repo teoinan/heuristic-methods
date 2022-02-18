@@ -1,7 +1,7 @@
 # heuristic methods
 Heuristic methods are approachs to problem solving that employs a method that is not guaranteed to find optimal solution. 
 
- Cheapest insertion: A tsp construction heuristic method that creates a feasible solution by insert closest city to initial solution.
+ Cheapest insertion: A tsp construction heuristic method that creates a feasible solution by inserting closest city to initial solution.
  
  Lagrangian relaxatian: A heuristic for the CPL problem. First it solves knapsack problem and finds Lowerbound values. By using lowerboundvalues code solves simplex and finds upperbound value. Then by iterating lowerbound values code terminate when epsilon ([ub-lb]/ub) is in desired value.
  
